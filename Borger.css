@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@200;300;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    background: url(images/background.jpg) ;
+    
+ 
+}
+/*start navcar*/
+.navbar .container .navbar-brand{
+    color: #fd7e14;
+    font-size: 20px;
+    font-weight: 500;
+   display: flex;
+   justify-content: flex-start;
+
+
+
+}
+.navbar .container .collapse  .navbar-nav .nav-item .nav-link{
+    color: #fd7e14;
+    font-size: 18px;
+    font-weight: 500;
+     
+}
+.navbar .container .collapse  .navbar-nav .nav-item .nav-link:hover{
+text-decoration: underline;
+
+}
+/*end navbar*/
+/*start home*/
+.home {
+    margin-top: 7rem;
+   background: url(images/home-bg.png) no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.content{
+    max-width: 70rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.content img{
+    width: 100%;
+    
+}
+.content h5{
+color: #fff;
+text-transform: uppercase;
+font-size: 18px;
+
+}
+.content p{
+    color: #fff;
+    font-size: 18px;
+
+
+}
+.content .btn{
+   display: inline-block;
+   margin-top: 1rem;
+   cursor: pointer;
+   color: #fff;
+   border: 1px solid #fd7e14;
+   background: no-repeat;
+   font-size: 1.7rem;
+   padding: 1rem 3rem;
+  border-radius: 20px;
+
+}
+.content .btn:hover{
+    color: black;
+    background: #fff;
+
+}
+
+
+
+/*end home*/
+/*start meun*/
+.meun  .title{
+   text-align: center;
+   color: #fff;
+   margin-top: 1.7rem;
+   font-size: 20px;
+   font-weight: 500;
+   text-decoration: underline solid #fd7e14;
+  
+   text-transform: uppercase;
+
+ 
+}
+
+.meun .row .col .card .card-body{
+    position: relative;
+   
+
+}
+
+.meun .row .col .card .card-body span{
+    position: relative;
+    top: 50%;
+    left: 42%;
+   margin: 35px 0;
+
+}
+.meun .row .col .card .card-body .card-title{
+    color: #fff;
+   text-align: center;
+   text-transform: uppercase;
+}
+.meun .row .col .card .card-body .price{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+
+
+}
+.btn1{
+    color: #fff;
+   display: flex;
+   justify-content: center;
+   padding: 15px ;
+   margin: 17px ;
+   border: 1px solid #14fd9a;
+   font-size: 20px;
+   text-transform: capitalize;
+   overflow: hidden;
+   transition: 1s all ease;
+   width: 10rem;
+   height: 3rem;
+  margin-left: 7rem;
+  top: 50%;
+  left: 35%;
+  border-radius: 20px;
+ 
+   
+}
+.btn1:hover{
+    background: #fd7e14;
+    transition: 0.2s ease-in-out;
+}
+/*end meun*/
+/*start about*/
+.about .card .row .col-md-8 .card-body .card-title{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline solid #fd7e14;
+
+}
+.about .card .row .col-md-8 .card-body .card-text{
+    color: #fff;
+    text-align: center;
+    margin-top: 1.7rem;
+}
+.about .card .row .col-md-8 .icons{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.7rem;
+    color: #fff;
+    margin-left: 2rem;
+}
+.about .card .row .col-md-8 .icons span{
+   margin: 2rem;
+}
+.about .card .row .col-md-8 .icons i{
+    margin: 1rem;
+    color: yellow;
+}
+.about .card .row .col-md-8 .btn{
+   position: absolute;
+   top:85%;
+   left: 50%;
+     color: #fff;
+     border: 2px solid  #14fd9a ; 
+     border-radius: 20px;
+     width: 20%;
+  
+   
+}
+.about .card .row .col-md-8 .btn:hover{
+    background: #fd7e14;
+    transition: 0.2s ease-in-out;
+}
+
+
+/*end about*/
+/*start review*/
+.reviwe .container h5{
+    text-align: center;
+    color: #fff;
+    text-decoration: underline solid #fd7e14;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+/*end review*/
+/*start content*/
+.content .container h3{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline solid #fd7e14;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+   
+   
+   
+}
+.content .container .card 
+.row .col-md-8 .card-body .phone {
+  color: #fff;
+
+}
+.content .container .card 
+.row .col-md-8 .card-body .phone i{
+    background: #fd7e14;
+    margin:1rem ;
+    width: 10%;
+    height: 20%;
+    border-radius: 3pc;
+}
+.content .container .card 
+.row .col-md-8 .card-body .eamil{
+    color: #fff;
+}
+.content .container .card 
+.row .col-md-8 .card-body .eamil i{
+    background: #fd7e14;
+    margin:1rem ;
+    width: 10%;
+    height: 20%;
+    border-radius: 3pc;
+}
+.content .container .card 
+.row .col-md-8 .card-body .address{
+    color: #fff;
+    
+}
+.content .container .card 
+.row .col-md-8 .card-body .address i{
+    background: #fd7e14;
+    margin:1rem ;
+    width: 10%;
+    height: 20%;
+    border-radius: 3pc;
+}
+
+/*end content*/
+/*start blog*/
+.blog .container h3{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline solid #fd7e14;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+   
+}
+.blog .container .card-body .card-title{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px; 
+
+}
+.blog .container .card-body .card-text{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 2px; 
+
+}
+.blog .container .card-footer .btn{
+   display: flex;
+   justify-content: center;
+    color: #fff;
+    border: 2px solid  #14fd9a ; 
+    border-radius: 20px;
+}
+.blog .container .card-footer .btn:hover{
+    background: #fd7e14;
+    transition: 0.2s ea;
+}
+/*end blog*/
+/*start nav*/
+.nav{
+    margin-top: 1.7rem;
+}
+.nav .nav-item .nav-link{
+color: #ddd;
+border: 2px solid #ddd;
+margin: 5px;
+border-radius: 20px;
+}
+.nav .nav-item .nav-link:hover{
+    background: #fd7e14;
+    transition: 0.2s ease-out;
+}
+h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 1.7rem;
+    font-family: sans-serif;
+}
+.main{
+    color: #fd7e14;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    text-decoration: underline solid #fd7e14;
+}
+
+/*end nav*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+  
+   
+
+
+
+
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
